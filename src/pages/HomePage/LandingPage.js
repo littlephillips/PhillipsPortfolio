@@ -1,9 +1,12 @@
-
 import React, { useState } from 'react';
 import '../../styles/landingPage.css';
 
 import ResumePage from '../Resume/ResumePage';
 import ProjectPage from '../Project/ProjectPage';
+
+const images = [
+  { src: '/assets/img/user.jpeg', alt: 'Photo of Phillip Kinuthia' },
+];
 
 const LandingPage = () => {
   // 'projects' is the default active component
@@ -30,12 +33,20 @@ const LandingPage = () => {
       <div className="cols__container">
         <div className="left__col">
           <div className="img__container">
-            <img src="/assets/img/user.jpeg" alt="User image" />
+            <img src={images[0].src} alt={images[0].alt} />
             <span></span>
           </div>
           <h2>Phillip Kinuthia</h2>
           <p>Software Developer</p>
-          <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=phillipkinuthia72@gmail.com" target="_blank" rel="noopener noreferrer">phillipkinuthia72@gmail.com</a></p>
+          <p>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=phillipkinuthia72@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              phillipkinuthia72@gmail.com
+            </a>
+          </p>
 
           <ul className="about">
             <li><span>Phone</span>+254797321068</li>
@@ -53,7 +64,6 @@ const LandingPage = () => {
               <li><a href="https://www.facebook.com/phillip.phillips.1800/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile"><i className="fab fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="https://medium.com/@phillipkinuthia72" target="_blank" rel="noopener noreferrer" aria-label="Medium Blog"><i className="fab fa-medium" aria-hidden="true"></i></a></li>
             </ul>
-
           </div>
         </div>
 
@@ -76,4 +86,3 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
-
