@@ -1,9 +1,13 @@
 import React from 'react';
+import Main from './Main';
 
 function App() {
   return (
-    <div>App</div>
+      <div>
+        <Main />
+      </div>
   );
 }
 
 export default App;
+
