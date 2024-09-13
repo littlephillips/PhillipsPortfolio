@@ -56,7 +56,7 @@ const LandingPage = () => {
 
           <div className="content">
             <p>
-              I am highly energetic in innovative and cutting-edge Technologies, interfaces, and web development. Well versed with HTML5, CSS3, JavaScript, React, Low-Code, Ruby, Ruby on Rails, and CSS Frameworks like Tailwind CSS.
+            I am deeply passionate about innovative and cutting-edge technologies, interfaces, and web development. With a strong proficiency in HTML5, CSS3, JavaScript, and React, I thrive on creating seamless user experiences. My expertise extends to low-code platforms, Ruby, Ruby on Rails, and CSS frameworks like Tailwind CSS. I am always eager to embrace new challenges and push the boundaries of what's possible in the digital realm.
             </p>
             <ul className="social-media-icons">
               <li><a href="https://x.com/PhillipKin39267" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
