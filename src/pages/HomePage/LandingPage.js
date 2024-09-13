@@ -30,7 +30,7 @@ const LandingPage = () => {
       <div className="cols__container">
         <div className="left__col">
           <div className="img__container">
-            <img src="/assets/img/user.jpeg" />
+            <img src="/assets/img/user.jpeg" alt="User image" />
             <span></span>
           </div>
           <h2>Phillip Kinuthia</h2>
