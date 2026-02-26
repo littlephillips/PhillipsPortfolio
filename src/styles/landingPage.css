@@ -33,7 +33,7 @@ a {
 
 /* Left Column Styles */
 .header__wrapper .cols__container .left__col {
-  padding: 25px 20px;
+  padding: 10px 10px;
   text-align: center;
   max-width: 350px;
   position: relative;
@@ -59,8 +59,8 @@ a {
 .header__wrapper .cols__container .left__col .img__container span {
   position: absolute;
   background: #2afa6a;
-  width: 16px;
-  height: 16px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   bottom: 3px;
   right: 11px;

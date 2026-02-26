@@ -56,7 +56,8 @@ const LandingPage = () => {
 
           <div className="content">
             <p>
-            I am deeply passionate about innovative and cutting-edge technologies, interfaces, and web development. With a strong proficiency in HTML5, CSS3, JavaScript, and React, I thrive on creating seamless user experiences. My expertise extends to low-code platforms, Ruby, Ruby on Rails, and CSS frameworks like Tailwind CSS. I am always eager to embrace new challenges and push the boundaries of what's possible in the digital realm.
+            {/* I am deeply passionate about innovative and cutting-edge technologies, interfaces, and web development. With a strong proficiency in HTML5, CSS3, JavaScript, and React, I thrive on creating seamless user experiences. My expertise extends to low-code platforms, Ruby, Ruby on Rails, and CSS frameworks like Tailwind CSS. I am always eager to embrace new challenges and push the boundaries of what's possible in the digital realm. */}
+            Full-stack Web Developer and IT Systems Support Engineer with 3+ years of experience delivering scalable web applications and reliable IT infrastructure. Proficient in JavaScript, React, Ruby on Rails, SQL, and Git, with strong experience across the software development lifecycle. Skilled in performance optimisation, database management, and translating business needs into effective technical solutions.
             </p>
             <ul className="social-media-icons">
               <li><a href="https://x.com/PhillipKin39267" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
