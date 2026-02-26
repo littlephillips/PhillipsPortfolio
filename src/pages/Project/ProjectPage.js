@@ -2,8 +2,9 @@ import React from 'react';
 import '../../styles/project.css';
 
 const images = [
+  { src: '/assets/img/GlobalMarketIndex.png',     alt: 'MajorMarketIndecesAnalyzer', link: 'https://github.com/littlephillips/tradingeconomics/tree/master/Global-Market-Index', name: 'Major Market Index Analyzer' },
   { src: '/assets/img/cashdvance.png',       alt: 'cashdvance', link: 'https://github.com/littlephillips/Cash-Advance', name: 'Cash Advance' },
-  { src: '/assets/img/allInvents.png',       alt: 'allInvents', link: 'https://github.com/littlephillips/Allinevents-Frontend', name: 'AllInEvents' },
+  { src: '/assets/img/allInvents.png',       alt: 'allInvents', link: 'https://github.com/littlephillips/Allinevents-Frontend', name: 'AllInEvents' },  
   { src: '/assets/img/ContactManager.png',   alt: 'ContactManager', link: 'https://littlephillips.github.io/Contact-Web-Application/', name: 'Contact Manager' },
   { src: '/assets/img/catGenerator.png',     alt: 'catGenerator', link: 'https://littlephillips.github.io/generate-random-cat-pictures/', name: 'Cat Generator' },
   { src: '/assets/img/soon.webp',            alt: 'Project image 5', link: '#', name: '' },
