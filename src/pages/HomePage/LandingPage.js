@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, lazy, Suspense } from 'react';
 import '../../styles/landingPage.css';
 
-import ResumePage from '../Resume/ResumePage';
-import ProjectPage from '../Project/ProjectPage';
+// Lazy load the pages
+const ResumePage = lazy(() => import('../Resume/ResumePage'));
+const ProjectPage = lazy(() => import('../Project/ProjectPage'));
 
 const images = [
   { src: '/assets/img/user.jpeg', alt: 'Photo of Phillip Kinuthia' },
 ];
 
 const LandingPage = () => {
-  // 'projects' is the default active component
   const [activeComponent, setActiveComponent] = useState('projects');
 
   const renderComponent = () => {
@@ -24,6 +24,7 @@ const LandingPage = () => {
   };
 
   const handleFollowClick = () => {
+    setActiveComponent('github')
     window.open('https://github.com/littlephillips/', '_blank');
   };
 
@@ -56,8 +57,7 @@ const LandingPage = () => {
 
           <div className="content">
             <p>
-            {/* I am deeply passionate about innovative and cutting-edge technologies, interfaces, and web development. With a strong proficiency in HTML5, CSS3, JavaScript, and React, I thrive on creating seamless user experiences. My expertise extends to low-code platforms, Ruby, Ruby on Rails, and CSS frameworks like Tailwind CSS. I am always eager to embrace new challenges and push the boundaries of what's possible in the digital realm. */}
-            Full-stack Web Developer and IT Systems Support Engineer with 3+ years of experience delivering scalable web applications and reliable IT infrastructure. Proficient in JavaScript, React, Ruby on Rails, SQL, and Git, with strong experience across the software development lifecycle. Skilled in performance optimisation, database management, and translating business needs into effective technical solutions.
+              Full-stack Web Developer and IT Systems Support Engineer with 3+ years of experience delivering scalable web applications and reliable IT infrastructure. Proficient in JavaScript, React, Ruby on Rails, SQL, and Git, with strong experience across the software development lifecycle. Skilled in performance optimisation, database management, and translating business needs into effective technical solutions.
             </p>
             <ul className="social-media-icons">
               <li><a href="https://x.com/PhillipKin39267" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
@@ -71,14 +71,19 @@ const LandingPage = () => {
         <div className="right__col">
           <nav>
             <ul>
-              <li><button onClick={() => setActiveComponent('projects')}>Projects</button></li>
-              <li><button onClick={() => setActiveComponent('resume')}>Resume</button></li>
+              <li><button onClick={() => setActiveComponent('projects')}
+              className={activeComponent === 'projects' ? 'active' : 'inactive'}>Projects</button></li>
+
+              <li><button onClick={() => setActiveComponent('resume')} className={activeComponent === 'resume' ? 'active' : 'inactive'}>Resume</button></li>
+              
               <button onClick={handleFollowClick}>Github</button>
             </ul>
           </nav>
 
           <div className="component__display">
-            {renderComponent()}
+            <Suspense fallback={<div>Loading...</div>}>
+              {renderComponent()}
+            </Suspense>
           </div>
         </div>
       </div>

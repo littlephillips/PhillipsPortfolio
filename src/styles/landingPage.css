@@ -170,10 +170,18 @@ a {
   border-radius: 4px;
   cursor: pointer;
   margin-top: 20px;
+  transition: all 0.3s ease;
 }
 
-.header__wrapper .cols__container .right__col nav button:hover {
+.header__wrapper .cols__container .right__col nav button.active {
+  background: #006fcc;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px); 
+}
+
+.header__wrapper .cols__container .right__col nav button:not(active):hover {
   opacity: 0.8;
+  background: #00a3ff;
 }
 
 @media (min-width: 868px) {
