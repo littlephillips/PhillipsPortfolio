@@ -64,6 +64,7 @@ const LandingPage = () => {
               <li><a href="https://www.instagram.com/little_phillips/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile"><i className="fab fa-instagram" aria-hidden="true"></i></a></li>
               <li><a href="https://www.facebook.com/phillip.phillips.1800/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile"><i className="fab fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="https://medium.com/@phillipkinuthia72" target="_blank" rel="noopener noreferrer" aria-label="Medium Blog"><i className="fab fa-medium" aria-hidden="true"></i></a></li>
+              <li><a href="https://phillipkinuthiawebdevs.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Business Site"><i className="fa-solid fa-briefcase"aria-hidden="true"></i></a></li>
             </ul>
           </div>
         </div>
