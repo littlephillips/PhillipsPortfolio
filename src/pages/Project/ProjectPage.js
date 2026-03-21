@@ -6,7 +6,7 @@ const images = [
   { src: '/assets/img/logicArchitectCrm.png', alt: 'logicarchitectcrm',   link: 'https://logicarchitectcrm.web.app/crm', name: 'Admin Logic Architect' },
   { src: '/assets/img/estakaparts.png',       alt: 'estakaparts',         link: 'https://estakaparts.web.app/',    name: 'Estaka Parts' },  
   { src: '/assets/img/estakapart_crm.png',    alt: 'estakaparts_crm',     link: 'https://estaka-crm.web.app/', name: 'Admin Estaka Parts ' },
-  { src: '/assets/img/pk.png',                alt: 'Web Developer Portfolio', link: 'https://phillipkinuthiawebdevs.vercel.app/', name: 'phillipLabs' },
+  { src: '/assets/img/pk.png',                alt: 'Web Developer Portfolio', link: 'https://philliplabs.vercel.app/', name: 'phillipLabs' },
   { src: '/assets/img/allInvents.png',        alt: 'allInvents',          link: 'https://allineventsclient.web.app/',    name: 'AllInEvents' },  
   { src: '/assets/img/allInvents_crm.png',    alt: 'allInvents_crm',      link: 'https://allinevents-6be19.web.app/crm', name: 'Admin AllInEvents ' },
   { src: '/assets/img/cashdvance.png',        alt: 'cashdvance',          link: 'https://cash-advance-72.web.app',       name: 'Cash Advance' },
