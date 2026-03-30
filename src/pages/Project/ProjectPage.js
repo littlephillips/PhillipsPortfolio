@@ -2,6 +2,7 @@ import React from 'react';
 import '../../styles/project.css';
 
 const images = [
+  { src: '/assets/img/qwetumovers.png',       alt: 'qwetumovers',          link: 'https://qwetumovers254.web.app/',    name: 'Qwetu Movers' },  
   { src: '/assets/img/logicArchitect.png',    alt: 'logicarchitect',      link: 'https://logicarchitect54.web.app/',    name: 'Logic Architect' },  
   { src: '/assets/img/logicArchitectCrm.png', alt: 'logicarchitectcrm',   link: 'https://logicarchitectcrm.web.app/crm', name: 'Admin Logic Architect' },
   { src: '/assets/img/estakaparts.png',       alt: 'estakaparts',         link: 'https://estakaparts.web.app/',    name: 'Estaka Parts' },  
